@@ -27,10 +27,4 @@ PROMPT='%F{green}[%n]%F{white}$(git_super_status)%F{red}%B[%1~]%F{white}%(!.%{#%
 RPROMPT=''
 
 # Aliases
-alias zshconfig='code ~/.zshrc'
-
-# Git Aliases
-alias gits='git status'
-alias gitb='git branch'
-alias gitl='git log'
-
+source $HOME/.zsh/.aliases

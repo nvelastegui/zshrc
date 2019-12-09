@@ -1,0 +1,8 @@
+# Aliases
+alias zshconfig='code ~/.zsh/.zshrc'
+
+# Git Aliases
+alias gits='git status'
+alias gitb='git branch'
+alias gitl='git log'
+alias gitd='git diff'
