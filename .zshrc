@@ -26,5 +26,15 @@ PROMPT='%F{green}[%n]%F{white}$(git_super_status)%F{red}%B[%1~]%F{white}%(!.%{#%
 # Set the rear prompt to nothing to overwrite git-prompt setting it there.
 RPROMPT=''
 
+# Add Android SDK Tools to path
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Add VSCode command line tool
+export PATH=$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
+
 # Aliases
 source $HOME/.zsh/.aliases
